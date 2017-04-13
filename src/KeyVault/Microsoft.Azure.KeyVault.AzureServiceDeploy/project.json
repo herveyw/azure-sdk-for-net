@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0-preview",
+  "version": "2.0.0",
   "title": "Microsoft Azure Key Vault Azure Service Deploy",
   "description": "Microsoft Azure Key Vault Service Deploy Package",
   "authors": [ "Microsoft" ],
@@ -20,7 +20,7 @@
   },
 
   "dependencies": {
-    "Microsoft.Azure.KeyVault.Jose": "[2.0.0-preview, 3.0)"
+    "Microsoft.Azure.KeyVault.Jose": "[2.0.0, 3.0)"
   },
 
   "frameworks": {
