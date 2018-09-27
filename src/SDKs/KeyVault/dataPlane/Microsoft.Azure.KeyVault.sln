@@ -23,6 +23,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.KeyVault.We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.KeyVault.WebKey.Tests", "Microsoft.Azure.KeyVault.WebKey.Tests\Microsoft.Azure.KeyVault.WebKey.Tests.csproj", "{6F5823CD-D1D7-4DF4-BE61-F07FD813440A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.KeyVault.Jose", "Microsoft.Azure.KeyVault.Jose\Microsoft.Azure.KeyVault.Jose.csproj", "{EA2CBE16-F0FF-4AD8-97C4-B48137C1DD70}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Azure.KeyVault.Jose.Tests", "Microsoft.Azure.KeyVault.Jose.Tests\Microsoft.Azure.KeyVault.Jose.Tests.csproj", "{DE864AAF-236C-473A-977B-8DF88E96C36B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,8 +73,19 @@ Global
 		{6F5823CD-D1D7-4DF4-BE61-F07FD813440A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F5823CD-D1D7-4DF4-BE61-F07FD813440A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F5823CD-D1D7-4DF4-BE61-F07FD813440A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA2CBE16-F0FF-4AD8-97C4-B48137C1DD70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA2CBE16-F0FF-4AD8-97C4-B48137C1DD70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA2CBE16-F0FF-4AD8-97C4-B48137C1DD70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA2CBE16-F0FF-4AD8-97C4-B48137C1DD70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE864AAF-236C-473A-977B-8DF88E96C36B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE864AAF-236C-473A-977B-8DF88E96C36B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE864AAF-236C-473A-977B-8DF88E96C36B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE864AAF-236C-473A-977B-8DF88E96C36B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FD84EC4B-B434-435F-8853-221DA9FAAEB6}
 	EndGlobalSection
 EndGlobal
